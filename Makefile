@@ -1,7 +1,7 @@
 # Chopped down version of the SIMH 3.9 Makefile.
 #
 ifeq ($(GCC),)
-  GCC = mips-none-elf-gcc
+  GCC = cc #mips-none-elf-gcc
 endif
 OSTYPE = $(shell uname)
 # OSNAME is used in messages to indicate the source of libpcap components
